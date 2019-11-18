@@ -1,0 +1,30 @@
+{
+  "name": "login-info",
+  "version": "1.0.0",
+  "description": "show system info to console",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "login-info": "./bin/run"
+  },
+  "keywords": [
+    "system",
+    "info"
+  ],
+  "author": "Butch Cloninger",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "debug": "^4.1.1",
+    "debug-level": "^0.3.0",
+    "figlet": "^1.2.4",
+    "ora": "^4.0.3",
+    "rc": "^1.2.8",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "systeminformation": "^4.15.3",
+    "yargs": "^15.0.1"
+  }
+}
